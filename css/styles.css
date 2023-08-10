@@ -22,29 +22,33 @@
 }
 .top_navigation .navigation {
   list-style: none;
-  display: inline-block;
 }
 .inf_navigation {
   list-style: none;
 }
-
-.inf_navigation .inf {
-  color: rgba(33, 33, 33, 1);
-  display: inline-block;
+.inf_navigation .link {
+  color: rgba(117, 117, 117, 1);
 }
-.inf_navigation .inf:hover {
-  color: rgba(33, 33, 33, 1);
+.inf_navigation .link:hover:hover {
+  color: rgba(33, 150, 243, 1);
 }
 .main_portfolio {
   list-style: none;
 }
-.main_portfolio .port_menu {
-  display: inline-block;
-  padding: 12px;
+.main_portfolio .link {
+  background-color: rgba(33, 150, 243, 1);
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.48px;
 }
-.main_portfolio .port_menu:hover {
-  color: rgba(33, 150, 243, 1);
-  text-align: justify;
+
+.main_portfolio .link:hover {
+  background-color: rgb(2, 92, 165);
 }
 
 .port_img {
@@ -92,5 +96,32 @@ h3 {
 }
 .footer_navigation .foot_nav {
   color: rgba(255, 255, 255, 1);
-  background-color: black;
+  background-color: rgb(47, 48, 58);
+}
+.footer_navigation .link {
+  color: rgba(117, 117, 117, 1);
+}
+.footer_navigation .link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.main_portfolio .cj {
+  width: 73px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196f3;
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-size: 16px line-height 1.625;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
